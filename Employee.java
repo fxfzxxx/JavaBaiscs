@@ -1,11 +1,15 @@
 import java.io.*;
 
 public class Employee{
-    // 变量
+    /* 变量 */
+    public static final String COMPANY = "Microsoft"; //静态变量
+
+    /* 实例变量 */
     String name;
     int age;
     double wage;
     String title;
+
     // 构造器
     public Employee(String name){
         this.name = name; // 类变量name赋值
